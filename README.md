@@ -6,7 +6,7 @@ O projeto foi criado com foco em praticar desenvolvimento front-end moderno, org
 
 ## Preview
 
-> Em breve...
+![Preview da Calculadora](assets/preview.png)
 
 ## Funcionalidades
 
