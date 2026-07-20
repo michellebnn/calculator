@@ -1,0 +1,207 @@
+<main class="calculator-page">
+  <div class="calculator-layout">
+    <section class="calculator" aria-label="Calculadora kawaii">
+      <div class="calculator__shine" aria-hidden="true"></div>
+
+      <div class="calculator__bow" aria-hidden="true">
+        <span class="calculator__bow-left"></span>
+        <span class="calculator__bow-center"></span>
+        <span class="calculator__bow-right"></span>
+        <span class="calculator__bow-ribbon calculator__bow-ribbon--left"></span>
+        <span class="calculator__bow-ribbon calculator__bow-ribbon--right"></span>
+      </div>
+
+      <span
+        class="calculator__sparkle calculator__sparkle--one"
+        aria-hidden="true"
+      >
+        ✦
+      </span>
+
+      <span
+        class="calculator__sparkle calculator__sparkle--two"
+        aria-hidden="true"
+      >
+        ✧
+      </span>
+
+      <span
+        class="calculator__sparkle calculator__sparkle--three"
+        aria-hidden="true"
+      >
+        ★
+      </span>
+
+      <span
+        class="calculator__sparkle calculator__sparkle--four"
+        aria-hidden="true"
+      >
+        ✦
+      </span>
+
+      <div class="calculator__display" aria-live="polite">
+        <span class="calculator__operation" data-operation>&nbsp;</span>
+        <strong class="calculator__result" data-display>0</strong>
+      </div>
+
+      <div class="calculator__decoration" aria-hidden="true">
+        <span class="calculator__wing calculator__wing--left">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <span class="calculator__heart">
+          <span class="calculator__heart-shine"></span>
+        </span>
+
+        <span class="calculator__wing calculator__wing--right">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+
+      <div class="calculator__keyboard">
+        <button
+          type="button"
+          class="calculator__button calculator__button--action"
+          data-action="clear"
+        >
+          AC
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--action"
+          data-action="toggle-sign"
+        >
+          +/−
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--action"
+          data-action="percentage"
+        >
+          %
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--operator"
+          data-operator="/"
+        >
+          ÷
+        </button>
+
+        <button type="button" class="calculator__button" data-number="7">
+          7
+        </button>
+
+        <button type="button" class="calculator__button" data-number="8">
+          8
+        </button>
+
+        <button type="button" class="calculator__button" data-number="9">
+          9
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--operator"
+          data-operator="*"
+        >
+          ×
+        </button>
+
+        <button type="button" class="calculator__button" data-number="4">
+          4
+        </button>
+
+        <button type="button" class="calculator__button" data-number="5">
+          5
+        </button>
+
+        <button type="button" class="calculator__button" data-number="6">
+          6
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--operator"
+          data-operator="-"
+        >
+          −
+        </button>
+
+        <button type="button" class="calculator__button" data-number="1">
+          1
+        </button>
+
+        <button type="button" class="calculator__button" data-number="2">
+          2
+        </button>
+
+        <button type="button" class="calculator__button" data-number="3">
+          3
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--operator"
+          data-operator="+"
+        >
+          +
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--zero"
+          data-number="0"
+        >
+          0
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button"
+          data-action="decimal"
+        >
+          .
+        </button>
+
+        <button
+          type="button"
+          class="calculator__button calculator__button--equals"
+          data-action="equals"
+        >
+          =
+        </button>
+      </div>
+    </section>
+
+    <aside class="history" aria-label="Histórico de cálculos">
+      <div class="history__header">
+        <div>
+          <span class="history__eyebrow">Suas contas</span>
+          <h2>Histórico</h2>
+        </div>
+
+        <button
+          type="button"
+          class="history__clear"
+          data-action="clear-history"
+        >
+          Limpar
+        </button>
+      </div>
+
+      <div class="history__list" data-history-list>
+        <p class="history__empty">
+          Nenhum cálculo realizado ainda.
+        </p>
+      </div>
+    </aside>
+  </div>
+</main>
